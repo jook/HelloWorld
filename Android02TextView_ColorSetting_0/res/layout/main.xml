@@ -4,11 +4,15 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context=".HelloActivity" >
+    tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
+        android:textColor="#00FF00"
+        android:text="@string/jeek_link"
+        android:textSize="20sp" 
+        />
+    
 </LinearLayout>
